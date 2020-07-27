@@ -1,0 +1,41 @@
+img {
+   max-width: 800px; max-height: 600px;
+
+}
+
+
+ul{
+  position: relative;
+  background: gray;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+  display: block;
+}
+
+ul li:hover{
+  background: lightgrey;
+}
+
+ul ul{
+  position: absolute;
+  min-width: : 200px;
+  display: none;
+  background: lightgrey;
+}
+ul ul li{
+  display: block;
+}
+
+ul li:hover ul{
+  display: block;
+}
